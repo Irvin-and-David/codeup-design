@@ -24,7 +24,7 @@
 }
 
 body{
-    background-color: var(--clr-primary-darker);
+    background-color: var(--clr-primary-light);
 }
 
 #main-title {
@@ -46,7 +46,7 @@ header {
 }
 
 main {
-    margin-top: 12em;
+    margin-top: 10em;
 }
 
 #from-utah {
@@ -55,7 +55,7 @@ main {
 
 .main-img {
     width: 295px;
-    border: 6px solid var(--clr-primary-light)
+    border: 6px solid var(--clr-primary-darker)
 }
 
 #logo {
@@ -66,7 +66,7 @@ main {
 
 #logo-div {
     margin-top: 2em;
-    background-color: var(--clr-primary-light);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,9 +75,9 @@ main {
 }
 
 .main-circles {
-    width: 140px;
-    height: 120px;
-    line-height: 110px;
+    width: 129px;
+    height: 129px;
+    line-height: 115px;
     border-radius: 50%;
     text-align: center;
     color: white;
@@ -85,6 +85,11 @@ main {
     padding: 0;
     font-size: 1.4em;
     font-weight: bolder;
+}
+
+.main-circles-container {
+    display: flex;
+    justify-content: center;
 }
 
 .small-circles {
@@ -96,10 +101,16 @@ main {
     color: black;
     font-size: 10px;
     font-weight: bolder;
+    margin: .5em;
+}
+
+.featured-row {
+    display: flex;
+    align-items: baseline;
 }
 
 .projects-title {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
