@@ -16,7 +16,7 @@
     <!--XS Nav-->
     <nav class="d-block d-sm-none">
         <div id="logo-div">
-            <img src="assets/logo.png" class="logo">
+            <img src="assets/logo.png" class="logo" alt="codeup design logo image">
         </div>
         <div class="container">
             <p class="text-center mt-4 abel" id="main-title">codeup design</p>
@@ -29,15 +29,15 @@
         </div>
     </nav>
     <!--Small Screen Nav-->
-    <nav class="d-none d-sm-block">
+    <nav class="d-none d-sm-block d-md-none">
         <div class="container-fluid">
             <div class="row" id="nav-div">
-                <ul class="pl-0">
+                <ul class="pl-0 pb-4">
                     <li class="m-2 abel ">SERVICES</li>
                     <li class="m-2 abel ">WORK</li>
                 </ul>
                 <img src="images/logo.png" alt="codeup design logo" id="sm-logo" class="logo mx-0">
-                <ul class="pl-0">
+                <ul class="pl-0 pb-4">
                     <li class="m-2 abel ">BLOG</li>
                     <li class="m-2 abel ">CONTACT</li>
                 </ul>
@@ -46,36 +46,49 @@
 
         </div>
     </nav>
+    <!--MD Screen Nav-->
+    <nav class="d-none d-md-block d-lg-none">
+        <div class="container-fluid">
+            <div class="row" id="md-nav-div">
+                <img src="images/logo.png" alt="Company Logo" class="logo ml-4 mr-2" id="md-logo">
+                <h1 class="abel" id="md-nav-title">codeup design</h1>
+                <ul class="pt-3 mr-4 abel">
+                    <li class="mx-2">SERVICES</li>
+                    <li class="mx-2">WORK</li>
+                    <li class="mx-2">BLOG</li>
+                    <li class="mx-2">CONTACT</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Page Header-->
     <header>
+        <!--Company Description-->
         <div class="container px-0">
             <h1 class="text-center anton">VISUAL DESIGN & WEB DEVELOPMENT</h1>
             <h3 class="text-center anton" id="from-utah">FROM PARK CITY, UTAH</h3>
-
-            <div class="row justify-content-center main-circles-container">
-                <div class="col-6 col-sm-3 main-circles-div">
-                    <p class="m-2 m-sm-1 main-circles design">DESIGN</p>
-                </div>
-                <div class="col-6 col-sm-3 main-circles-div">
-                    <p class="m-2 m-sm-1 main-circles develop">DEVELOP</p>
-                </div>
-                <div class="col-6 col-sm-3 main-circles-div">
-                    <p class="m-2 m-sm-1 main-circles support">SUPPORT</p>
-                </div>
-                <div class="col-6 col-sm-3 main-circles-div">
-                    <p class="m-2 m-sm-1 main-circles host">HOST</p>
-                </div>
-            </div>
-            <hr class="d-none d-sm-block">
-
         </div>
+        <!--Four Big Circles-->
+        <div class="container">
+            <div class="row justify-content-center text-center main-circles-container">
+                <p class="mx-3 main-circles design">DESIGN</p>
+                <p class="mx-3 main-circles develop">DEVELOP</p>
+                <p class="mx-3 main-circles support">SUPPORT</p>
+                <p class="mx-3 main-circles host">HOST</p>
+            </div>
+        </div>
+        <!--Horizontal Line only appears on md and up-->
+        <hr class="d-none d-sm-block">
+
+
     </header>
     <main>
         <div class="container">
             <p class="text-center mb-4 abel">SELECTED WORK</p>
-            <section class="row main-row">
+            <div class="row main-row">
                 <div class="col-sm-6 pr-0">
 
-                    <img class="main-img" src="images/apple-ipad.jpg">
+                    <img class="main-img" src="images/apple-ipad.jpg" alt="apple ipad">
                     <div class="container">
                         <div class="row mt-2 featured-row">
                             <div class="mr-auto">
@@ -93,7 +106,7 @@
 
                 <div class="col-sm-6 mb-5 d-none d-sm-block pr-0">
 
-                    <img class="main-img" src="images/macbook.jpg">
+                    <img class="main-img" src="images/macbook.jpg" alt="apple macbook">
                     <div class="container">
                         <div class="row mt-2 featured-row">
                             <div class="mr-auto">
@@ -111,7 +124,8 @@
 
                 <div class="col-sm-6 d-none d-sm-block pr-0">
 
-                    <img class="main-img" src="images/man.jpg">
+                    <img class="main-img" src="images/man.jpg"
+                         alt="mans face with zeros and ones filter covering image">
                     <div class="container">
                         <div class="row mt-2 featured-row">
                             <div class="mr-auto">
@@ -129,7 +143,7 @@
 
                 <div class="col-sm-6 d-none d-sm-block pr-0">
 
-                    <img class="main-img" src="images/security.jpg">
+                    <img class="main-img" src="images/security.jpg" alt="website screenshot with security text">
                     <div class="container">
                         <div class="row mt-2 featured-row">
                             <div class="mr-auto">
@@ -144,11 +158,14 @@
                         </div>
                     </div>
                 </div>
-
-
-            </section>
+            </div>
         </div>
     </main>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous">
+</script>
 </body>
 </html>

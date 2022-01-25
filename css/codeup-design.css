@@ -99,9 +99,9 @@ main {
 }
 
 .main-circles {
-    width: 100%;
-    height: 100%;
-    line-height: 140px;
+    width: 125px;
+    height: 125px;
+    line-height: 110px;
     border-radius: 50%;
     text-align: center;
     color: white;
@@ -161,7 +161,8 @@ main {
     margin: 0 auto;
     padding-left: 0;
 }
-@media (min-width: 576px) {
+/*Small screens*/
+@media (min-width: 576px) and (max-width: 768px) {
     main {
         margin-top: 2em;
     }
@@ -170,12 +171,11 @@ main {
         justify-content: space-between;
     }
     .main-img {
-        width: 260px;
-        height: 177px;
+        width: 100%;
     }
     hr {
         width: 85%;
-        background-color: gray;
+        background-color: #b4b4b4;
         margin: 20px auto;
     }
     .main-circles-div {
@@ -195,4 +195,26 @@ main {
         font-size: 1.75em;
         margin-top: 25px;
     }
+}
+/*Medium screens*/
+@media (min-width: 768px) and (max-width: 992px) {
+    #md-nav-div {
+        background-color: white;
+        margin-top: 2em;
+        height: 50px;
+    }
+    #md-logo {
+        position: relative;
+        top: -20px;
+    }
+    #md-nav-title {
+        margin-right: auto;
+    }
+    hr {
+        width: 90%;
+    }
+}
+/*Large screens and up*/
+@media (min-width: 992px) {
+
 }
