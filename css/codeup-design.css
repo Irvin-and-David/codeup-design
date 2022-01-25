@@ -16,6 +16,9 @@
     --ff-abel: 'Abel', sans-serif;
 }
 
+a:link, a:visited {
+    color: #6e6e6e;
+}
 
 .anton {
     font-family: var(--ff-anton);
@@ -172,7 +175,6 @@ main {
         height: 150px;
     }
     hr {
-        width: 85%;
         background-color: #b4b4b4;
         margin: 20px auto;
     }
@@ -189,7 +191,7 @@ main {
     .projects-title {
         margin-right: auto;
     }
-    .clear-both {
+    .md-company-name-nav {
         font-size: 1.75em;
         margin-top: 25px;
     }
@@ -216,10 +218,6 @@ main {
     #nav-ul {
         padding-right: 0;
     }
-    hr {
-        width: 80%;
-        margin: 0 auto;
-    }
     .news-feed-img {
         width: 50px;
     }
@@ -235,16 +233,6 @@ main {
 }
 /*Large screens*/
 @media (min-width: 992px) {
-    #md-logo {
-        margin-left: 0;
-    }
-    #nav-ul {
-        padding-right: 0;
-    }
-    hr {
-        width: 80%;
-        margin: 0 auto;
-    }
     .news-feed-img {
         width: 70px;
         height: 60px;
@@ -261,16 +249,6 @@ main {
 }
 /*XL Screens*/
 @media (min-width: 1200px) {
-    #md-logo {
-        margin-left: 0;
-    }
-    #nav-ul {
-        padding-right: 0;
-    }
-    hr {
-        width: 80%;
-        margin: 0 auto;
-    }
     .news-feed-img {
         width: 80px;
         height: 70px;
