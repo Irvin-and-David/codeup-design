@@ -111,9 +111,6 @@ main {
     font-weight: bolder;
 }
 
-.main-circles-container {
-}
-
 .small-circles {
     width: 18px;
     height: 18px;
@@ -263,7 +260,6 @@ main {
         font-size: 1em;
     }
     #last-tweet-title {
-
         font-size: 1.5em;
     }
 }
