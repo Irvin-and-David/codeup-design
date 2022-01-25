@@ -95,7 +95,8 @@
                 <div class="container">
                     <p class="text-center text-md-left mb-4 abel">SELECTED WORK</p>
             <!-- First attempt at implementing the four photos as a carousel component -->
-                    <div id="carouselExamplesSlidesOnly" class="carousel slide d-block d-sm-none" data-ride="carousel">
+                    <div id="carouselExamplesSlidesOnly" class="carousel slide d-block d-sm-none" data-ride="carousel"
+                        data-interval="2500" data-pause="hover">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="images/apple-ipad.jpg" class="d-block w-100" alt="Apple iPad">
@@ -110,10 +111,16 @@
                             <div class="carousel-item">
                                 <img class="main-img" src="images/security.jpg" alt="website screenshot with security text">
                             </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
-
-
                     <div class="container d-block d-sm-none">
                         <div class="row mt-2 featured-row">
                             <div class="mr-auto">

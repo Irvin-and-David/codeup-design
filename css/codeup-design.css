@@ -158,6 +158,9 @@ main {
     margin: 0 auto;
     padding-left: 0;
 }
+
+
+
 /*Small screens*/
 @media (min-width: 576px) and (max-width: 768px) {
     main {
