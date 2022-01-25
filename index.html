@@ -46,13 +46,14 @@
 
         </div>
     </nav>
-    <!--MD Screen Nav-->
-    <nav class="d-none d-md-block d-lg-none">
-        <div class="container-fluid">
-            <div class="row" id="md-nav-div">
-                <img src="images/logo.png" alt="Company Logo" class="logo ml-4 mr-2" id="md-logo">
+    <!--MD Screen and up Nav-->
+    <nav class="d-none d-md-block">
+        <div id="md-nav-div"></div>
+        <div class="container">
+            <div class="row">
+                <img src="images/logo.png" alt="Company Logo" class="logo" id="md-logo">
                 <h1 class="abel" id="md-nav-title">codeup design</h1>
-                <ul class="pt-3 mr-4 abel">
+                <ul class="pt-3 abel" id="nav-ul">
                     <li class="mx-2">SERVICES</li>
                     <li class="mx-2">WORK</li>
                     <li class="mx-2">BLOG</li>
@@ -78,89 +79,118 @@
             </div>
         </div>
         <!--Horizontal Line only appears on md and up-->
-        <hr class="d-none d-sm-block">
+        <hr class="d-none d-sm-block w-sm-80">
 
 
     </header>
-    <main>
-        <div class="container">
-            <p class="text-center mb-4 abel">SELECTED WORK</p>
-            <div class="row main-row">
-                <div class="col-sm-6 pr-0">
+    <div class="container">
 
-                    <img class="main-img" src="images/apple-ipad.jpg" alt="apple ipad">
-                    <div class="container">
-                        <div class="row mt-2 featured-row">
-                            <div class="mr-auto">
-                                <p class="projects-title abel">FEATURED PROJECT</p>
+        <div class="row">
+            <main class="col-md-8 mt-4">
+                <div class="container">
+                    <p class="text-center text-md-left mb-4 abel">SELECTED WORK</p>
+                    <div class="row main-row">
+                        <div class="col-sm-6 pr-0">
+
+                            <img class="main-img" src="images/apple-ipad.jpg" alt="apple ipad">
+                            <div class="container">
+                                <div class="row mt-2 featured-row">
+                                    <div class="mr-auto">
+                                        <p class="projects-title abel">FEATURED PROJECT</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="small-circles design">D</p>
+                                        <p class="small-circles develop">D</p>
+                                        <p class="small-circles support">S</p>
+                                        <p class="small-circles host">H</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="d-flex">
-                                <p class="small-circles design">D</p>
-                                <p class="small-circles develop">D</p>
-                                <p class="small-circles support">S</p>
-                                <p class="small-circles host">H</p>
+                        </div>
+
+                        <div class="col-sm-6 mb-5 d-none d-sm-block pr-0">
+
+                            <img class="main-img" src="images/macbook.jpg" alt="apple macbook">
+                            <div class="container">
+                                <div class="row mt-2 featured-row">
+                                    <div class="mr-auto">
+                                        <p class="projects-title abel">FEATURED PROJECT</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="small-circles design">D</p>
+                                        <p class="small-circles develop">D</p>
+                                        <p class="small-circles support">S</p>
+                                        <p class="small-circles host">H</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 d-none d-sm-block pr-0">
+
+                            <img class="main-img" src="images/man.jpg"
+                                 alt="mans face with zeros and ones filter covering image">
+                            <div class="container">
+                                <div class="row mt-2 featured-row">
+                                    <div class="mr-auto">
+                                        <p class="projects-title abel">FEATURED PROJECT</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="small-circles design">D</p>
+                                        <p class="small-circles develop">D</p>
+                                        <p class="small-circles support">S</p>
+                                        <p class="small-circles host">H</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 d-none d-sm-block pr-0">
+
+                            <img class="main-img" src="images/security.jpg" alt="website screenshot with security text">
+                            <div class="container">
+                                <div class="row mt-2 featured-row">
+                                    <div class="mr-auto">
+                                        <p class="projects-title abel">FEATURED PROJECT</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="small-circles design">D</p>
+                                        <p class="small-circles develop">D</p>
+                                        <p class="small-circles support">S</p>
+                                        <p class="small-circles host">H</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-6 mb-5 d-none d-sm-block pr-0">
-
-                    <img class="main-img" src="images/macbook.jpg" alt="apple macbook">
-                    <div class="container">
-                        <div class="row mt-2 featured-row">
-                            <div class="mr-auto">
-                                <p class="projects-title abel">FEATURED PROJECT</p>
-                            </div>
-                            <div class="d-flex">
-                                <p class="small-circles design">D</p>
-                                <p class="small-circles develop">D</p>
-                                <p class="small-circles support">S</p>
-                                <p class="small-circles host">H</p>
-                            </div>
-                        </div>
+            </main>
+            <!--News Feed Aside -->
+            <aside class="col-md-4 d-none d-md-block">
+                <div class="container mt-4">
+                    <p class="abel">THE LAST</p>
+                    <div class="row mt-4">
+                        <div class="col-md-3"><img src="images/mobile-phone.jpg" alt="mobile phone" class="news-feed-img"></div>
+                        <div class="col-md-9 anton pr-0 news-feed-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3"><img src="images/head.jpg" alt="head drawing" class="news-feed-img"></div>
+                        <div class="col-md-9 anton pr-0 news-feed-title">NIBBLER AWESOME WEBSITE TESTING</div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3"><img src="images/ipad.jpg" alt="mobile phone" class="news-feed-img"></div>
+                        <div class="col-md-9 anton pr-0 news-feed-title">HOW TO GET GOOGLE TO LIKE YOU</div>
+                    </div>
+                    <div class="row mt-5">
+                        <h3 class="mr-3"><i class="bi bi-twitter"></i></h3> <p class="abel mt-1 mt-lg-0" id="last-tweet-title">LAST TWEET</p>
+                    </div>
+                    <div class="row">
+                        <p class="abel" id="newsfeed-last-tweet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dignissimos dolorem esse explicabo impedit laborum neque officiis quae, reiciendis voluptate.</p>
                     </div>
                 </div>
-
-                <div class="col-sm-6 d-none d-sm-block pr-0">
-
-                    <img class="main-img" src="images/man.jpg"
-                         alt="mans face with zeros and ones filter covering image">
-                    <div class="container">
-                        <div class="row mt-2 featured-row">
-                            <div class="mr-auto">
-                                <p class="projects-title abel">FEATURED PROJECT</p>
-                            </div>
-                            <div class="d-flex">
-                                <p class="small-circles design">D</p>
-                                <p class="small-circles develop">D</p>
-                                <p class="small-circles support">S</p>
-                                <p class="small-circles host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 d-none d-sm-block pr-0">
-
-                    <img class="main-img" src="images/security.jpg" alt="website screenshot with security text">
-                    <div class="container">
-                        <div class="row mt-2 featured-row">
-                            <div class="mr-auto">
-                                <p class="projects-title abel">FEATURED PROJECT</p>
-                            </div>
-                            <div class="d-flex">
-                                <p class="small-circles design">D</p>
-                                <p class="small-circles develop">D</p>
-                                <p class="small-circles support">S</p>
-                                <p class="small-circles host">H</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </aside>
         </div>
-    </main>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
